@@ -1,0 +1,23 @@
+{
+  "name": "serweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "serweb": "bin/create.js"
+  },  
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "narsen <not_amon-dev@yahoo.it>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "express": "^4.13.3",
+    "forever": "^0.15.1"
+  }
+}
